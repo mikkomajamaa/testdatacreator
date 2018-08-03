@@ -1,0 +1,3 @@
+This program reads txt, csv etc. files with data and allows the user to create smaller files for testing purposes. User enters the original files name and a partition size. For example if you want 1/100 of the data of the original file for testing purposes you enter 100 and the program writes a new file with every 100th row of the original file.
+
+It is especially useful when you are analyzing data with large amount of rows. For example I used it when writing a program that analyzes a file with approzimately 890,000 rows to make tests run faster.
